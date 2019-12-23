@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import PostCardModern from "../components/PostCardModern/PostCardModern"
+import PostCardModern from "../components/PostCardModern/postCardModern"
 import Pagination from "../components/Pagination/pagination"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
