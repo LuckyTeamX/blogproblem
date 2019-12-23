@@ -2,13 +2,13 @@ backend:
   name: github
   repo: LuckyTeamX/wotblog
 
-media_folder: packages/modern-agency/static/assets
-public_folder: /assets
+media_folder: static/assets
+public_folder: assets
 
 collections:
   - name: blog
     label: Blog
-    folder: packages/modern-agency/content/blog
+    folder: content/blog
     create: true
     fields:
       - { name: title, label: Title }
