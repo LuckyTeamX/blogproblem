@@ -2,8 +2,8 @@ backend:
   name: github
   repo: LuckyTeamX/wotblog
 
-media_folder: packages/modern-agency/static/assets
-public_folder: /assets
+media_folder: packages/modern-agency/content/assets
+public_folder: /content/assets
 
 collections:
   - name: blog
