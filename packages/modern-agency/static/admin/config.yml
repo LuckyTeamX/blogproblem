@@ -4,8 +4,8 @@ backend:
     - admin
     - editor
 
-media_folder: packages/modern-agency/content/assets
-public_folder: /content/assets
+media_folder: packages/modern-agency/static/assets
+public_folder: /assets
 
 collections:
   - name: blog
