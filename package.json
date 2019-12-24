@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "modern-dev": "cd packages/modern-agency && gatsby develop",
-    "modern-build": "cd packages/modern-agency && gatsby build && cd ../../",
+    "modern-build": "cd packages/modern-agency && gatsby build --prefix-paths && cd ../../",
     "modern-serve": "cd packages/modern-agency && gatsby serve",
     "docz:dev": "cd packages/components && docz dev",
     "docz:build": "cd packages/components && docz build"
