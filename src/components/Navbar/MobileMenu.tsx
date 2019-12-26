@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 import { Link } from "gatsby"
-import Drawer from "components/Drawer/Drawer"
-import { DrawerContext } from "components/Drawer/DrawerContext"
+import Drawer from "../../_/components/Drawer/Drawer"
+import { DrawerContext } from "../../_/components/Drawer/DrawerContext"
 import Menu from "./Menu"
 import {
   MobileMenuWrapper,

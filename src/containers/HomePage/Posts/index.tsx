@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import Button from "components/Button/Button"
+import Button from "../../../_/components/Button/Button"
 import PostCardModern from "../../../components/PostCardModern/postCardModern"
 import BlogPostsWrapper, { PostRow, PostGrid, SeeMore } from "./style"
 
