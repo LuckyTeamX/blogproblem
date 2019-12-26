@@ -13,8 +13,13 @@ module.exports = {
     siteUrl: `https://storyhub-personal-tarex.redq.now.sh`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true
+      }
+    },
     `gatsby-plugin-netlify-cms`,
-    'gatsby-plugin-netlify-cache',
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
